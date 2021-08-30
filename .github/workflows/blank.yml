@@ -28,7 +28,7 @@ jobs:
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp 3389"'
     - name: Connecting to your RDP.
       run: cmd /c start.bat
-    - name: RDP is ready!
+    - name: omorik wath7a!
       run: | 
         Invoke-WebRequest https://raw.githubusercontent.com/AKRAMHL2/AH8RDP/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
